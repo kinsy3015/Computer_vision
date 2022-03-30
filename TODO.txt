@@ -1,0 +1,3 @@
+R & D =>  computer vision just hot place about R & D 
+=> so, important find computer computing & vision algorithm for engineering applicable. 
+for example, point cloud filters, kdtree, octree, segmentation ... etc theory & alogorithm
