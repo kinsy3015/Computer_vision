@@ -1,0 +1,10 @@
+desktop1 =============================================================================================== 
+gpu : Geforce GTX 1060 6gb => compate cuda_tool_kit version 8.0
+cuda8.0 : compat python3.6 
+
+
+conda env settings :
+conda update -n base conda
+conda create -n myconda_env python=python3.6
+conda install pytorch==1.0.0 torchvision=0.2.1 cuda80 -c pytorch
+conda install jupyter 
