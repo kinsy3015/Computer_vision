@@ -11,3 +11,4 @@ https://www.lainyzine.com/ko/article/a-complete-guide-to-how-to-install-docker-d
 https://bitlog.tistory.com/135 // wsl2 - snap enable
 https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/how-to-install-visual-studio-code-on-ubuntu-18-04-linux-mint-19-debian-9.html // wsl2 - code enable
 https://thenoface.tistory.com/5 // wsl2 - VcXsrv
+https://github.com/microsoft/CBL-Mariner/blob/1.0/toolkit/docs/quick_start/quickstart.md#prepare-vm // wsl2 - CBL-Mariner build doc
