@@ -8,3 +8,6 @@ for example, point cloud filters, kdtree, octree, segmentation ... etc theory & 
 
 https://docs.microsoft.com/ko-kr/windows/wsl/tutorials/gui-apps
 https://www.lainyzine.com/ko/article/a-complete-guide-to-how-to-install-docker-desktop-on-windows-10/
+https://bitlog.tistory.com/135 // wsl2 - snap enable
+https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/how-to-install-visual-studio-code-on-ubuntu-18-04-linux-mint-19-debian-9.html // wsl2 - code enable
+https://thenoface.tistory.com/5 // wsl2 - VcXsrv
