@@ -1,3 +1,10 @@
 R & D =>  computer vision just hot place about R & D 
 => so, important find computer computing & vision algorithm for engineering applicable. 
 for example, point cloud filters, kdtree, octree, segmentation ... etc theory & alogorithm
+
+
+
+
+
+https://docs.microsoft.com/ko-kr/windows/wsl/tutorials/gui-apps
+https://www.lainyzine.com/ko/article/a-complete-guide-to-how-to-install-docker-desktop-on-windows-10/
