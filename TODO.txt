@@ -3,7 +3,14 @@ R & D =>  computer vision just hot place about R & D
 for example, point cloud filters, kdtree, octree, segmentation ... etc theory & alogorithm
 
 
+TODO: 
 
+nvidia flash program analysis or another flash program ex. rescue
+
+stereo depth camera xavier board dtb source code analysis
+
+
+reference site :
 
 
 https://docs.microsoft.com/ko-kr/windows/wsl/tutorials/gui-apps
