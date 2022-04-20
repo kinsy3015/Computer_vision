@@ -1,0 +1,7 @@
+cuda tool kit => nvidia library for ml
+
+nvidia-driver => version compat important with kernel dev nvidia-driver version
+
+ex. graphic card driver => 510 => nvidia(cuda)-drivier-version : must 510
+
+tao toolkit => must after version cuda 11.6 => so driver:510, cuda-11.6 must! 
