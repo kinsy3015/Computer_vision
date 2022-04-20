@@ -2,24 +2,24 @@ template <class T>
 class Vector
 {
 
-pubilc:
+public:
 	typedef T * iterator;
 
 	Vector();
 	Vector(unsigned int size);
-	Vector(unsigned int size, const T * initial);
+	Vector(unsigned int size, const T & initial);
 	Vector(const Vector<T> & v);
 	~Vector();
 
-	unsigned int capacity() const;
-	unsigned itn size() const;
-	bool empty() const;
+	unsigned int capacity()const;
+	unsigned int size()const;
+	bool empty()const;
 	iterator begin();
 	iterator end();
 	T & front();
 	T & back();
 	void push_back(const T & value);
-	void pop_bakc();
+	void pop_back();
 
 	void reserve(unsigned int capacity);
 	void resize(unsigned int size);
