@@ -10,6 +10,93 @@ nvidia flash program analysis or another flash program ex. rescue
 stereo depth camera xavier board dtb source code analysis
 
 
+
+
+
+
+update-alternatives
+
+Device tree => independent kernel
+our product linux device driver(ldd) not yet
+
+
+Error: Invalid target board - jetson-nano-qspi-sd.
+
+https://forums.developer.nvidia.com/t/flashing-jetson-nano-error-invalid-target-board/144884
+
+
+
+
+$  ls -l *.conf | tr -s ' ' | cut -d' ' -f9-
+
+sudo ./flash.sh -r -k APP -G backup.img jetson-nano-qspi-sd mmcblk0p1
+
+
+
+usb connect error! = > reboot or reset board
+
+rootfs error! = > maybe tar sudo not => sudo tar xf ../../{Sample_Filesyste}
+
+
+diff -urN [old directory] [patched directory] > old.patch
+
+
+patch -pNUM < old.patch
+
+
+
+
+ dtc -I fs -O dts /sys/firmware/devicetree/base > ~/workspace/rpi3.dts
+
+
+It's pretty easy to compile (and disassemble) device trees. For example
+
+$ dtc -O dtb -o p4080ds.dtb p4080ds.dts
+
+To get the device tree in text from from the device tree blob, do this:
+
+$ dtc -I dtb -O dts p4080ds.dtb
+
+
+
+
+
+
+
+You don't specify which shell (there are many), so I am assuming Bourne Shell, that is I think your script starts with:
+
+#!/bin/sh
+
+Please remember to tag future questions with the shell type, as this will help the community answer your question.
+
+You need to define your functions before you call them. Using ():
+
+process_install()
+{
+    echo "Performing process_install() commands, using arguments [${*}]..."
+}
+
+process_exit()
+{
+    echo "Performing process_exit() commands, using arguments [${*}]..."
+}
+
+Then you can call your functions, just as if you were calling any command:
+
+if [ "$choice" = "true" ]
+then
+    process_install foo bar
+elif [ "$choice" = "false" ]
+then
+    process_exit baz qux
+
+You may also wish to check for invalid choices at this juncture...
+
+else
+    echo "Invalid choice [${choice}]..."
+fi
+
+
 reference site :
 
 
