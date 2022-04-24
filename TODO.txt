@@ -5,6 +5,17 @@ for example, point cloud filters, kdtree, octree, segmentation ... etc theory & 
 
 TODO: 
 
+nvidia developer document => r & d => what is purpose? : our calibration & library & debian distribute & camera device tree adapt
+
+imu dtb practice => specific 
+
+
+
+TAO toolkit document => read r & d => what is purpose? : fisheye equirectengular picture traing improve? => 성능지표 공부해야함
+
+
+
+
 nvidia flash program analysis or another flash program ex. rescue
 
 stereo depth camera xavier board dtb source code analysis
