@@ -1,0 +1,18 @@
+opencv conflict error from cv_bridge
+
+cd /opt/ros/melodic/share/cv_bridge/cmake
+
+solution => vim cv_bridgeConfig.cmake
+
+=> edit 
+
+set(libraries "cv_bridge;/usr/lib/aarch64-linux-gnu/libopencv_core.so.3.2.0;/usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.3.2.0;/usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.3.2.0;")
+
+>> set(libraries "cv_bridge;/home/argos/Workspace/argosvue/lib/libopencv_core.so.4.5.2;/home/argos/Workspace/argosvue/lib/libopencv_imgproc.so.4.5.2;/home/argos/Workspace/argosvue/lib/libopencv_imgcodecs.so.4.5.2;")
+
+
+
+or => set(librarise /usr/lib)
+
+
+=> why conflict? => libraries path가 두개로 잡혀서 에러가남남
