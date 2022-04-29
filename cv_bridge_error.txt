@@ -15,4 +15,4 @@ set(libraries "cv_bridge;/usr/lib/aarch64-linux-gnu/libopencv_core.so.3.2.0;/usr
 or => set(librarise /usr/lib)
 
 
-=> why conflict? => libraries path가 두개로 잡혀서 에러가남남
+=> why conflict? => libraries path가 두개로 잡혀서 에러가남 or libraries가 다른버전으로 잡혀서 에러가남남
